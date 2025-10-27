@@ -39,8 +39,29 @@ const mojTekst = "Podaj jakiś tekst"
 // console.log(tekst)
 // let tekst = "Podaj jakiś tekst"
 
+// pierwsze zadanie:
 // stwórz funkcję, która po wciśnięciu przycisku doda
 // ze sobą dwie liczby podane przez usera
 
 // const liczba = prompt("podaj pierwszą liczbę") // string
-const liczba = parseInt(prompt("podaj pierwszą liczbę")) // number
+// const liczba = parseInt(prompt("podaj pierwszą liczbę")) // number
+
+// drugie zadanie:
+// github.com/JasinskiSz/zadania
+// programowanie -> javascript -> zadanie0
+
+const mojeImie = "Szymon"
+const mojeNazwisko = "Jasiński"
+
+function wyswietlImieINazwisko() {
+    alert(mojeImie)
+    console.log(mojeNazwisko)
+}
+
+function pobierzIWyswietl() {
+    const userImie = prompt("Podaj swoje imie")
+    const userNazwisko = prompt("Podaj swoje nazwisko")
+    const userNumer = prompt("Podaj swój numer z dziennika")
+
+    console.log(userImie, userNazwisko, userNumer)
+}
