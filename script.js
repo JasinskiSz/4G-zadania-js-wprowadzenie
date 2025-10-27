@@ -19,6 +19,22 @@ console.log("jakiś mój tekst wpisany ręcznie")
 console.log(wiek)
 console.log("Waga to: " + waga)
 
+// wypisz w konsoli wartość przyjętą przez usera
+// const userInput = prompt("Wpisz liczbę")
+// console.log(userInput)
 
-prompt("Wpisz liczbę")
-console.log()
+// console.log(prompt("Wpisz liczbę"))
+
+// tworzenie funkcji
+function zrobCos(tekst) { // zrobCos - Camel Case
+    const input = prompt(tekst)
+    // console.log(tekst)
+    console.log(input)
+}
+
+const mojTekst = "Podaj jakiś tekst"
+
+// użycie funkcji
+// zrobCos(mojTekst)
+// console.log(tekst)
+// let tekst = "Podaj jakiś tekst"
