@@ -38,3 +38,9 @@ const mojTekst = "Podaj jakiś tekst"
 // zrobCos(mojTekst)
 // console.log(tekst)
 // let tekst = "Podaj jakiś tekst"
+
+// stwórz funkcję, która po wciśnięciu przycisku doda
+// ze sobą dwie liczby podane przez usera
+
+// const liczba = prompt("podaj pierwszą liczbę") // string
+const liczba = parseInt(prompt("podaj pierwszą liczbę")) // number
