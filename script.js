@@ -65,3 +65,9 @@ function pobierzIWyswietl() {
 
     console.log(userImie, userNazwisko, userNumer)
 }
+
+
+
+
+// trzecie zadanie
+// Stwórz licznik, który zlicza kliknęcia przycisku
